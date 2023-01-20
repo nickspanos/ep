@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap");
+
+body {
+	background: #f2f2f2 !important;
+}
+
+.main {
+	font-family: "Titillium Web", sans-serif;
+}
+
+.font-weight-bold {
+	font-weight: bold;
+}
+
+.connector {
+	cursor: pointer;
+	background: #fff;
+	padding: 50px 25px;
+	display: flex;
+	align-items: center;
+	border-radius: 20px;
+	font-size: 1.5rem;
+	box-shadow: 0 0 0 0 #fff;
+	gap: 10px;
+	background: #fff;
+	box-shadow: 2px 2px 5px -5px rgb(0 0 0 / 50%);
+}
+
+.login-card {
+	height: 250px;
+	background: #fff;
+	border-radius: 50px;
+	padding: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-shadow: 2px 2px 5px -5px rgb(0 0 0 / 50%);
+	position: relative;
+}
+
+.login-card .logo {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fff;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+.login-card h3 {
+	text-align: center;
+}
+
+.escrows {
+	/* height: calc(100vh - 100px); */
+}
+
+.escrow-card,
+.escrow-card-loader {
+	background: #fff;
+	border-radius: 20px;
+	padding: 20px;
+	text-align: center;
+	box-shadow: 3px 3px 5px -5px rgb(0 0 0 / 50%);
+	margin-bottom: 30px;
+}
+
+.escrow-card .secret-code {
+	/* display: block; */
+	cursor: pointer;
+}
+
+.escrow-card-loader {
+	height: 300px;
+}
+
+.escrow-card {
+	position: relative;
+}
+
+.escrow-card h4 {
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.escrow-status {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.profile-nav {
+	height: 100px;
+	overflow: hidden;
+}
+
+.profile {
+	max-width: 300px;
+}
+
+.profile h6 {
+	font-size: 1.5rem;
+}
+
+.profile .profile-meta {
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+.profile img {
+	border-radius: 50%;
+}
+
+.profile-meta .balance {
+	max-width: 58px;
+	overflow: hidden;
+	display: inline-flex;
+}
+
+.profile .profile-meta p {
+	font-size: 0.9rem;
+	margin-bottom: 0;
+}
+
+.sign-out {
+	cursor: pointer;
+	font-size: 0.9rem;
+	text-decoration: underline;
+}
+
+.qr-image canvas {
+	max-width: 100%;
+	height: auto !important;
+}
