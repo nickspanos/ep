@@ -13,3 +13,10 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+> escrow@0.1.0 deploy-contract
+> hardhat run scripts/deploy.ts
+
+EscrowHub deployed to: 0x8f86b6A3e76a07aa66e0f9537BaB43a1b685A9a7
+
+https://escrow-testnet-gxk4whoc3-akarales.vercel.app/

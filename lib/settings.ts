@@ -1,6 +1,6 @@
 export const settings = {
     localStorageKey: 'signed_token',
-    SIGN_MESSAGE: 'I accept the CryptoEscrow Terms of Service: https://service.org/tos',
+    SIGN_MESSAGE: 'I accept the CryptoEscrow Terms of Service: https://escrowpayment.com/tos',
     ipfsGateways: [
         "https://cloudflare-ipfs.com/ipfs/%s/%s",
         "https://%s.ipfs.dweb.link/%s",
